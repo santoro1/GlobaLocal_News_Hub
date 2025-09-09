@@ -1,0 +1,57 @@
+*{
+    background-image: url();
+    background-repeat: no-repeat;
+}
+
+.signup-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    padding: 20px;
+    background: #F8EC07;
+    min-height: 500px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.signup-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.username, .email, .password, button, .location{
+    margin-bottom: 10px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "Space Mono", monospace;
+}
+
+.detect{
+    margin-left: 30px;
+}
+
+.login-link{
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "Space Mono", monospace;
+}
